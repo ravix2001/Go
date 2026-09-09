@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// Variadic functions allow a function to accept a variable number of arguments of the same type. 
+// Instead of defining a fixed number of parameters, the ... syntax is used, 
+// making functions more flexible and suitable for scenarios where the number of inputs is unknown beforehand.
 func sum(nums ...int) (int){
 	total := 0
 
